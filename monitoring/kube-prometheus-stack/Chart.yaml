@@ -1,0 +1,7 @@
+apiVersion: v2
+name: kube-prometheus-stack
+version: 0.1.0
+dependencies:
+  - name: kube-prometheus-stack
+    version: "^57.0.0"  # Update to the latest version available
+    repository: "https://prometheus-community.github.io/helm-charts"
